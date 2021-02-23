@@ -1,0 +1,31 @@
+ls -la
+cd /home/
+ls -la
+cd portfolio/
+ls -la
+npx start
+less package.json 
+npm run start
+exit
+cd /home/portfolio/
+npm run start
+perl --version
+awk --version
+awk 'print("hoge")'
+awk 'printf("hoge")'
+awk printf("hoge")
+man awk
+awk --help
+awk 'printf "hoge"'
+awk 'print "hoge"'
+awk '{print "hoge"}'
+echo 'fuga' | awk 'print $1'
+echo '1' | awk '{print $1}'
+echo '1' | awk '{print $0}'
+echo '1 23' | awk '{print $0}'
+echo '1 23' | awk '{print $1}'
+exit
+ls -la
+exit
+ls -la
+exit
