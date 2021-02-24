@@ -1,5 +1,6 @@
 function! _call_myeslint() abort
   exec ":!docker exec -i `docker ps | perl -anlE 'if(/portfolio_container/){say $F[0]}'` npx eslint --fix ".expand('%')." --config .eslintrc.js"
+  exec ":e!"
 endfunction
 
 augroup typescript_group

@@ -66,10 +66,9 @@
 [[layers]]
   name = "lsp"
   filetypes = [
-    "rust"
+    "typescript"
   ]
   [layers.override_cmd]
-  rust = ["rls"]
 
 [[layers]]
   name = "shell"
