@@ -22,3 +22,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 !.SpaceVim.d
+.SpaceVim.d/autoload/after.vim
+.SpaceVim.d/autoload/before.vim
+.SpaceVim.d/autoload/init.vim
