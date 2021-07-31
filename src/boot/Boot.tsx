@@ -3,7 +3,7 @@ import './Boot.css';
 function Boot() {
   return (
     <div className="boot">
-      <p>Welcome to heyyou Portfolio!</p>
+      <div>Welcome to heyyou Portfolio!</div>
     </div>
   );
 }
